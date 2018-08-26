@@ -1,0 +1,40 @@
+
+xdatatr: object that contains X_training data
+
+ydatatr: object for y_training data (labels) 
+
+xdatatst: object that contains X_test data
+
+ydatatst: object that contains y_test data
+
+sbjtrain: object that contains the subject training data
+
+sbjtest:  object that contains the subject test data
+
+xdat: object of merger of x training and test data sets
+
+ydat: object of merger of y training and test data sets
+
+sbj: object of merger of subject training and test data sets
+
+ftxt: object of features (variables) file
+
+xdat.w.names: object xdat  with names, i.e., feature names included, to avoid confusion in further programing
+
+indx; indexes of data for determining the mean
+
+xdata_mean: mean of the data 
+
+
+indx1: index of data for determining the standard deviation
+
+xdata_std: standard deviation
+
+subject: column name of subjects
+
+activity: column name of activities
+
+newMgData: object name of merged data
+
+names of features starting with t to time and f to frequency for better readability
+
